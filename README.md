@@ -33,12 +33,51 @@ This application allows users to upload **images or PDFs of identity documents**
 
 ## 📂 Project Structure  
 
-AI_Document_Validation/
-│── app.py # Main Flask application
-│── requirements.txt # Dependencies
-│── static/ # CSS, JS, Images
-│── templates/ # HTML templates
-│── uploads/ # Uploaded documents
-│── validators/ # Validation functions
-└── README.md # Project documentation
+AI_Document_Validation/<br>
+│── app.py # Main Flask application<br>
+│── requirements.txt # Dependencies<br>
+│── static/ # CSS, JS, Images<br>
+│── templates/ # HTML templates<br>
+│── uploads/ # Uploaded documents<br>
+│── validators/ # Validation functions<br>
+└── README.md # Project documentation<br>
+
+
+---
+
+## ⚙️ Installation  
+
+1️⃣ Clone the repository  
+- git clone https://github.com/ankit_5002/AI-for-Document-Validation.git<br>
+- cd AI-for-Document-Validation
+
+2️⃣ Create a virtual environment and activate it
+- python -m venv venv
+- source venv/bin/activate   # For Linux/Mac
+- venv\Scripts\activate      # For Windows
+
+3️⃣ Install dependencies
+- pip install -r requirements.txt
+
+4️⃣ Run the Flask server
+- python app.py
+
+5️⃣ Open in browser
+- http://127.0.0.1:5000
+
+
+## 🚧 Future Enhancements<br>
+🔹 Support for more document types (Passport, Driving License)<br>
+🔹 Advanced AI-based field detection<br>
+🔹 Multi-language OCR support<br>
+🔹 REST API for external integrations<br>
+
+## 🤝 Contributing<br>
+Contributions are welcome! Please fork this repo and submit a pull request.<br>
+
+## 📜 License
+This project is licensed under the MIT License – feel free to use and modify it.
+---
+
+Do you also want me to add **GitHub badges (Python version, Flask, MIT License)** at the top to make it look more professional?
 
